@@ -1,0 +1,610 @@
+body {
+    font-size: 16px;
+}
+
+a.nav-link:hover {
+    color: #ffb253;
+}
+
+.my-navbar {
+    background-color: rgba(3, 3, 17, 0.97);
+}
+
+#title {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+} 
+
+.nav .navbar-social > a {
+    padding:0;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+    background: none;
+}
+
+#listing-button {
+    border-radius: 20px;
+    line-height: 30px;
+    width: 125px;
+    vertical-align: bottom;
+    margin-bottom: -7px;
+    font-size: 1rem;
+}
+
+.bg-img {
+    background-image: url(Images/EditedBackground-C.jpg);
+    /* background-color: teal; */
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.company-brand {
+    font-weight: bold;
+    font-size: 1.75rem;
+    vertical-align: text-top;
+}
+
+nav a {
+    font-size: 1rem;
+}
+
+.bold {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    color: rgba(244,208,150,255);
+
+}
+
+pre.header {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 75px;
+    padding-top: 8.5%;
+    color: white;
+    overflow: hidden;
+    padding-left: 8.5%;
+}
+
+p.header {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255);
+    padding: 2% 8.5% 1%;
+}
+
+
+.first-info-button {
+    margin-left: 8.5%;
+    background-color: rgb(247, 115, 92);
+    border-color: rgba(240,137,118,255);
+}
+
+.info-button:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.info-button {
+    padding: 8.5px 22.5px;
+    margin-right: 15px;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 11%;
+}
+
+.second-info-button {
+    border-color: white;
+    color: white;
+}
+
+.add-listing-btn:hover {
+    background-color: rgba(240,137,118,255);
+    color: white;
+    border-color: rgba(240,137,118,255);
+}
+
+/* Destinations */
+
+#destinations {
+    background-color: rgba(237,237,237,255);
+}
+
+
+#destinations .card-body {
+    padding: 0px;
+}
+
+#destinations .card {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 550px;
+    margin-top: -90px;
+    border:  none;
+    margin-right: 5%;
+}
+
+.card {
+    margin: 0%;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    margin: 0%;
+    transform: translateY(-20px);
+}
+
+img.card-img-top {
+    margin: 0px;
+}
+
+
+#destinations .card-title {
+    text-align: center;
+    margin: 22.5px;
+    font-size: 28px;
+    color: #314d63;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+#destinations .card-text{
+    margin: 0px 7.5% 13.5%;
+    opacity: 75%;
+}
+
+#destinations .card-subtitle {
+    margin: 0px 7.5%;
+    text-transform: uppercase;
+    color: #8fb9ab;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#destinations .date-card-subtitle {
+    color: rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    text-transform: none;
+    margin: 0px 7.5%;
+}
+
+/* Popular Destinations */
+
+#popular-destinations {
+    padding: 5% 7.5% 5% 0px;
+}
+
+.second-grid {
+    text-align: right;
+    justify-content: right;
+    display: inline-block;
+    padding: 0px 2.5% 0px 0px;
+}
+
+#popular-destinations .heading-title{
+    font-weight: 700;
+    font-size: 65px;
+    overflow: hidden;
+    color: #f08976;
+    margin-bottom: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#popular-destinations hr {
+    width: 20%;
+    height: 1.5%;
+    background-color:#314d63;
+    opacity: 100%;
+    margin-right: 0;
+    margin-left: 80%;
+    margin-bottom: 10px; 
+    margin-top: 0px;   
+}
+
+#popular-destinations .content {
+    margin-top: 55px;
+    font-size: 18px;
+    width: 90%;
+    margin-left: 10%;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.50);
+    margin-bottom: 0px;
+}
+
+.first-grid {
+    padding: 0%;
+    height: 450px;
+}
+
+.first-grid img {
+    width: 200px;
+    display: block;
+}
+
+
+/* Images */
+.image {
+    width: 200px;
+    position: relative;
+    margin: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.image_overlay, .horizontal-image_overlay {
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(178,232,232,0.90);
+    margin: 0px;
+    padding: 0px;
+    padding: 10% 5%;
+    opacity: 0%;
+    transition: opacity 0.25s;
+}
+
+.image_overlay:hover, .horizontal-image_overlay:hover {
+    opacity: 100%;
+}
+
+.image_overlay > * {
+    transform: translateY(15px);
+    transition: transform 0.20s;
+}
+
+.image_overlay:hover > * {
+    transform: translateY(0px);
+}
+
+.image_overlay div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 5px;
+    color: #314d63;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 17.5%;
+    margin-top: 5%;
+}
+
+.image_overlay p {
+    margin-left: 6.5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.horizontal-image_overlay div {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #314d63;
+    text-transform: uppercase;
+    line-height: 15px;
+    margin-bottom: 2.5%;
+}
+
+.horizontal-image_overlay p {
+    margin-left: 6.5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img1 {
+    bottom: 50px;
+    left: 25px;
+}
+
+.img2 {
+    left: 235px;
+    bottom: 250px;
+}
+
+.img3 {
+    bottom: 350px;
+    left: 25px;
+}
+
+.first-grid img:hover  {
+    opacity: 50%;
+}
+
+/* Experiences */
+
+#experiences {
+    padding-bottom: 5%;
+    padding-top: 0%;
+    text-align: center;
+}
+
+#experiences .title {
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    color: #f4d096;
+}
+
+#experiences .description {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 60%;
+    margin: 0% 20%;
+}
+
+.header {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Activities */
+
+.activities::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    overflow: hidden;
+    background-image: url(Images/Brazil-Map.svg);
+    background-size: cover;
+    opacity: 40%;
+    background-repeat: no-repeat; 
+}
+
+.activities {
+    margin: 0px;
+    padding-bottom: 7.5%;
+    position: relative;
+}
+
+#content img {
+    width: 150px;
+    display: block;
+    margin: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transition: filter .2s;
+}
+
+#content img:hover {
+    filter: brightness(115%);
+}
+
+col {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding: 50%;
+}
+
+#content h4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: left;
+}
+
+.my-footer-copyright {
+    opacity: 70%;
+    text-align: left;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+hr {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 3.5%;
+    border: none;
+    background-color: #ffb253;
+}
+
+.my-footer p, .my-footer ul {
+    display: inline-block;
+    text-align: left;
+    margin-left: 8.5%;
+    padding: 0px; 
+}
+
+.title1 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 8.5%;
+    margin-right: 70%;
+    padding: 0px;
+}
+
+.title2 {
+    display: inline-block;
+    text-align: left;
+    margin-left: 25%;
+    padding: 0px;
+}
+
+.my-footer {
+    padding-top: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffb253;
+}
+
+
+/* Card-1 HTML Page */
+
+.blog {
+    padding: 2.5% 10% 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.blog-content {
+    padding: 1%;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.50);
+}
+
+.blog-q {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.blog-content:nth-child(2) {
+    padding-top: 3%;
+} 
+
+.blog-title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    color: #314d63;
+}
+
+.blog q {
+    color: #8fb9ab;
+    margin: 5%;
+}
+
+.my-carousel {
+    margin-top: 5.5%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.my-blog-img {
+    border-top-left-radius: 12.5px;
+    border-top-right-radius: 12.5px;
+}
+
+/* Main Information Page*/ 
+
+
+/* background-color: rgba(178,232,232,0.90); */
+.our-services {
+    padding: 70px 0px;
+}
+.service-box {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin: 15px 0px 15px;
+    transition: 0.5s;
+    border: 1px solid #ccc;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.192) 0px 3px 8px;
+}
+.service-box:hover, .icon{
+    background-color: #314d63;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: 1px solid #ddd;
+    color: white;
+}
+.service-box:hover h3 a{
+  color: #ffffff;
+}
+.icons {
+    font-size: 60px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.icons:hover {
+    color: white;
+}
+
+.service-box:hover {
+    color: rgba(255, 248, 220, 0.5);
+    box-shadow: none;
+    border: none;
+}
+
+.service-box h3 a {
+    text-decoration: none;
+    color: #314d63;
+    font-size: 24px;
+}
+.service-box :before {
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+.info-title {
+    padding: 2.5% 10% 1%;
+    font-size: 55px;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #f08976;
+}
+
+/* Events Page */ 
+
+#events {
+    padding: 9.5% 0%;
+    font-size: 16px;
+}
+
+.card {
+    height: 375px;
+}
+
+#events h1 {
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #f08976;
+}
+
+.events-description {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 50px;
+}
+
+#events h4 {
+    color: #8fb9ab;
+}
+
+#events p {
+    color: rgba(0, 0, 0, 0.50);
+}
